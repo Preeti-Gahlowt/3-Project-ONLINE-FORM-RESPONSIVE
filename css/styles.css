@@ -1,0 +1,222 @@
+
+/* Base styles ONLINE FORM*/
+
+* {
+  box-sizing: border-box
+}
+
+  body {
+  font-family: 'Merriweather', sans-serif;
+   margin: 0 auto;
+
+
+
+}
+ p {
+   color: grey;
+   font-size:12px;
+   padding-bottom: 15px;
+
+ }
+
+ .wrapper {
+   	margin:0;
+    border-top: 3px solid grey;
+    border-top: double;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ header h2{
+    font-size:22px;
+
+ }
+
+header p {
+ margin: 20px;
+
+}
+
+/* Header styles */
+
+.top h1 {
+  color: white;
+  background-color: #2d3945;
+  padding:10px;
+  margin-top: 0;
+  font-size: 15px;
+  text-align: center;
+  
+  
+}
+.heading{
+  text-align: center;
+
+}
+
+header p {
+  color: #c4c5c6;
+
+}
+
+
+
+
+legend,
+h2{
+  font-size:17px;
+  color: black;
+  padding-top: 20px;
+
+}
+
+
+/* Form styles */
+
+.first,
+.second {
+	border: none;
+
+}
+
+
+.first{
+	border-bottom: 1px solid black;
+    margin-top: 40px;
+
+}
+
+.bottom{
+margin-top: 10px;
+
+}
+
+.primary,
+.second {
+    color: grey;
+    font-size:13px;
+
+}
+
+
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 17px;
+  padding: 15px;
+  width: 100%;
+  background-color: #EFF0F1;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 4px 8px 0;
+}
+
+button {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #4EBBB5;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #3ac162;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 10px 10px 10px 10px;
+}
+
+
+::placeholder {
+    
+    text-align: right;
+    font-size:11px;
+
+}
+
+select {
+  font-size:13px;
+}
+
+label {
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+label input{
+	display:inline;
+}
+
+
+
+/* Footer styles */
+
+footer{
+
+	text-align: center;
+}
+/* Media queries */
+
+
+
+@media(min-width: 768px){
+
+
+
+
+.wrapper  {
+
+  margin-left: auto;
+  margin-right: auto;
+   width: 70%;
+
+}
+
+input {
+  display: inline;
+  max-width: 70%;
+   
+}
+
+label{
+ width: 25%;
+
+}
+
+state {
+  padding: 20px;
+
+}
+
+.newsletters1{
+	width: 100%;
+}
+
+select{
+	max-width: 70%;
+}
+
+
+}
