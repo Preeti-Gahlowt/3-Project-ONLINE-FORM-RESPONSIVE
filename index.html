@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" href="../css/normalize.css">
+      <link rel="stylesheet" href="css/styles.css">
+      <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+
+
+
+    <title>PROJECT 3 ONLINE-FORM</title>
+</head>
+<body>
+
+         <div class="heading">
+            <nav class="top">
+               <h1>THE CODE REVIEW</h1>
+            </nav>
+            <header>
+               <h2><strong>Signup for our newsletter</strong></h2>
+               <p> Get the latest news on how your code is doing right in your inbox. </p>
+            </header>
+
+         </div>
+
+          <div class="wrapper">
+         <form class="main" action="index.html" method="post">
+            <fieldset class="first">
+               <legend><strong>Contact Information</strong></legend>
+               <br>
+               <label for="name" class="primary"> Full Name </label>
+               <input required type="text" placeholder="Required" id="name" name="user_name"><br>
+               <label for="mail" class="primary"> Email Address </label>
+               <input required type="email" placeholder="Required" id="mail" name="user_email"><br>
+               <label for="phone" class="primary"> Phone Number </label>
+               <input type="tel" placeholder="Required" id="phone" name="user_tele"><br>
+               <label for="address" class="primary"> Street Address </label>
+               <input type="text" id="address" name="user_address">
+             <br>
+               <label for="city" class="primary"> City </label>
+               <input type="text" id="city" name="user_city"><br>
+               <label for="state" class="primary"> State </label>
+               <select id="state" name="user_state">
+                  <option value="CS">Choose State</option>
+                  <option value="ACT">Australian Capital Territory</option>
+					<option value="NSW">New South Wales</option>
+					<option value="NT ">Northern Territory</option>
+					<option value="QLD">Queensland</option>
+					<option value="SA ">South Australia</option>
+					<option value="TAS">Tasmania</option>
+					<option value="VIC">Victoria</option>
+					<option value="WA ">Western Australia</option>
+               </select><br>
+               <label for="zip" class="primary"> Zip Code </label>
+               <input type="text" id="zip" name="user_zip">
+            </fieldset>
+            <div class="bottom">
+               <fieldset class="second">
+                  <legend> <strong>Newsletter</strong></legend>
+                  <br>
+                  <label class="newsletters1"> Select the newsletters you would like to recieve </label>
+                  <br>
+
+                  <input type="checkbox" id="html" value="newsletters_html" name="user_interest"> <label class="format" for="html">
+                  HTML News</label> <br>
+                  <input type="checkbox" id="css" value="newsletters_css" name="user_interest"> <label class="format" for="css">
+                  CSS News</label> <br>
+                  <input type="checkbox" id="javascript" value="newsletters_javascript" name="user_interest"> <label class="format" for="javascript">
+                  Javascript News</label>
+                  <br>
+                  <br>
+                  <label>Newsletter Format </label>
+                  <br>
+                  <input type="radio" id="htm" value="html" name="user_format"><label for="htm"
+                     class="format">HTML</label><br>
+                     <input type="radio" id="text" value="text" name="user_format"><label for="text"
+                        class="format">Plain Text</label>
+                <br>
+
+                  <label class="newsletters1" for="topics"> Other topics you'd like to hear about </label>
+
+
+                  <textarea placeholder="We would love to hear your feedback" id="topics" name="user_topics"> </textarea>
+                  <button type="submit"> Sign Up </button>
+               </fieldset>
+
+         </div>
+          </form>
+         <footer>
+            <p class="copyright">Copyright - The Code Review</p>
+         </footer>
+      </div>
+</html>
