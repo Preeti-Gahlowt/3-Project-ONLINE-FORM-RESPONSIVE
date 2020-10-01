@@ -13,7 +13,7 @@
 
 }
  p {
-   color: grey;
+   color: #696969;
    font-size:12px;
    padding-bottom: 15px;
 
@@ -21,7 +21,7 @@
 
  .wrapper {
    	margin:0;
-    border-top: 3px solid grey;
+    border-top: 3px solid gray;
     border-top: double;
     width: 90%;
     margin-left: auto;
@@ -94,7 +94,7 @@ margin-top: 10px;
 
 .primary,
 .second {
-    color: grey;
+    color: #696969;
     font-size:13px;
 
 }
